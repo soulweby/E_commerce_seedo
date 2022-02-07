@@ -1,0 +1,81 @@
+.e_com-footer {
+  height: 100vh;
+  overflow: hidden;
+}
+
+h3 {
+  color: #22460D;
+}
+
+.wrapper {
+  display: flex;
+}
+
+/* input[type="text"], input[type="password"], input[type="email"], input[type="number"], input[type="range"]*/
+input, textarea, select {
+  padding: 10px 10px;
+  margin: 15px 10px;
+  border-radius: 0px;
+  background-color: rgba(255, 255, 255);
+  border: none;
+  /* border-bottom:2px solid darkgreen; */
+}
+
+input, textarea {
+  border-bottom: 2px solid darkgreen;
+}
+
+input {
+  outline: solid transparent 2px;
+}
+
+input::placeholder {
+  /* text-transform: uppercase; */
+  color: rgba(128, 128, 128, 0.801);
+
+}
+
+
+.profile-section {
+  margin: 1rem;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 80vw;
+}
+
+
+.bank-details {
+  border-radius: .5rem;
+  margin: 1rem;
+  padding-top: 20px;
+}
+
+.user-details {
+  border-radius: .5rem;
+  margin: 1rem;
+}
+
+.hover_save:hover {
+  color: limegreen;
+}
+
+.hover_annuler:hover {
+  color: red;
+}
+
+.lg-char {
+  font-size: 1rem;
+  margin: 30px 0px 5px 10px;
+}
+
+.sm-char {
+  font-size: 0.9rem;
+  margin: 0px 0px 0px 10px;
+}
+
+::placeholder {
+  font-weight: bold;
+}

@@ -1,0 +1,145 @@
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 30vw;
+}
+
+.bande {
+    background-color: #4caf50ff;
+    height: 50px;
+}
+
+.wrapper-rond {
+    width: 30vw; height: 30vw;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 50px;
+}
+
+.wrapper-rond img{
+    width: 160%;
+}
+
+.textBox {
+    width: 30%;
+    padding: 20px;
+}
+
+.textSeeds {
+    width: 50%;
+    margin: 50px auto;
+    font-style: italic;
+    text-align: center;
+}
+
+.imgSeed {
+    margin: 50px;
+}
+
+.seeds {
+    margin: 100px;
+}
+
+.hrGreen {
+    color : #4caf50ff;
+    margin: 50px auto;
+    width: 85vw;
+}
+
+.control-arrow {
+    max-height: 80%;
+    top : 30% !important;
+    height: 40%;
+    width: 30px;
+    background-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.carousel-status, .thumbs-wrapper {
+    display : none !important;
+}
+
+.slide div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.slide img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.carousel-root {
+    border-bottom: solid black 2px;
+    box-shadow: 0px 30px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.about {
+    padding: 20px;
+    width: 70vw;
+}
+
+.content {
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    background-color: #ffff;
+    box-shadow: 0px 0px 130px 50px rgba(0, 0, 0, 0.1);;
+}
+
+.content p {
+    max-width: 40%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 120px 50px 120px 30px;
+    margin: 30px 0px;
+    border-radius: 5px;
+    line-height: 1.7em;
+}
+
+.contentImg {
+    background-image: url('../assets/10-graines-bonnes-pour-la-sante.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aboutTitle {
+    font-size: 2.5em;
+    margin: 70px 0px;
+}
+
+@media (max-width : 1200px ) {
+    .textSeeds {
+        width: 80%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .textBox {
+        width: 80%;
+        text-align: center;
+    }
+    .wrapper-rond {
+        width: 40vw; height: 40vw;
+    }
+    .content p {
+        max-width: 60%;
+    }
+}
+
+@media (max-width : 700px ) {
+    .textSeeds {
+        width: 100%;
+    }
+
+    .wrapper-rond {
+        width: 50vw; height: 50vw;
+    }
+
+    .content p {
+        max-width: 100%;
+    }
+}
